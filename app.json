@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "QR Presença",
+    "slug": "app-gerador",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Este aplicativo precisa acessar sua galeria para selecionar uma imagem.",
+        "NSCameraUsageDescription": "Este aplicativo precisa acessar sua câmera escanear."
+      }
+    },
+    "android": {
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "CAMERA"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.Andre_Pieper.appGerador"
+    },
+    "web": {
+      "favicon": "./favicon.png",
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a6b6b30c-8786-43cb-95a4-999a6dbe3bd9"
+      }
+    },
+    "owner": "andre_pieper",
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Precisamos acessar sua câmera."
+        }
+      ]
+    ]
+  }
+}
