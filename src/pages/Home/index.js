@@ -19,10 +19,8 @@ export default function TelaInicial({ navigation }) {
   const [token, setToken] = useState('');
   const [erroToken, setErroToken] = useState('');
 
-  // decode jwt 
   const decode_Token = (token) => {
     try {
-      // padronizacao para base 64
       const [, payload] = token.split('.');
       const base64 = payload.replace(/-/g, '+').replace(/_/g, '/');
       const base64F = base64.padEnd(base64.length + (4 - (base64.length % 4)) % 4, '=');
@@ -34,7 +32,6 @@ export default function TelaInicial({ navigation }) {
     }
   };
 
-  // informacoes do usuario
   useEffect(() => {
     const Info_Usuario = async () => {
       try {

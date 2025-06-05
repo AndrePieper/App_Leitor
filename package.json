@@ -48,7 +48,8 @@
     "react-native-webview": "13.8.6",
     "styled-components": "^6.1.13",
     "expo-camera": "~15.0.16",
-    "expo-barcode-scanner": "~13.0.1"
+    "expo-barcode-scanner": "~13.0.1",
+    "expo-location": "~17.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

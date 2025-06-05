@@ -160,18 +160,98 @@ export default function Cadastro({ navigation }) {
 }
 
 const styles = StyleSheet.create({
-  logo: { width: 400, height: 100, resizeMode: 'contain', alignSelf: 'center', marginBottom: 20 },
-  boxForm: { marginBottom: 0 },
-  label: { color: "#000", margin: 5 },
-  input: { backgroundColor: "#fff", color: "#737276", borderWidth: 1, borderColor: "#737276", borderRadius: 5, margin: 5, padding: 10 },
-  erro: { color: 'red', textAlign: 'center', marginVertical: 10 },
-  sucesso: { color: 'green', textAlign: 'center', marginVertical: 10 },
-  botaoPadrao: { backgroundColor: "#00913D", alignItems: 'center', padding: 15, margin: 5, marginTop: 20, borderRadius: 5, marginHorizontal: 20, marginBottom: 20 },
-  botaoPadraoTexto: { color: "#fff", fontSize: 18 },
-  carregar: { marginBottom: 10, marginTop: 10 },
-  rodape: { position: 'absolute', flex: 0.1, left: 0, right: 0, bottom: 25 },
-  rodapeRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', paddingVertical: 5 },
-  rodapeLinha: { borderBottomWidth: 2, borderColor: "#000", width: '20%', marginHorizontal: 5 },
-  rodapeTexto: { color: "#000", textAlign: "center", fontSize: 16 },
-  linkCadastro: { color: '#0000FF', textAlign: 'center', marginTop: 10, textDecorationLine: 'underline' },
+  logo: {
+    width: 400,
+    height: 100,
+    resizeMode: 'contain',
+    alignSelf: 'center',
+    marginBottom: 20,
+  },
+
+  boxForm: {
+    marginBottom: 0,
+  },
+
+  label: {
+    color: "#000",
+    margin: 5,
+  },
+
+  input: {
+    backgroundColor: "#fff",
+    color: "#737276",
+    borderWidth: 1,
+    borderColor: "#737276",
+    borderRadius: 5,
+    margin: 5,
+    padding: 10,
+  },
+
+  erro: {
+    color: 'red',
+    textAlign: 'center',
+    marginVertical: 10,
+  },
+
+  sucesso: {
+    color: 'green',
+    textAlign: 'center',
+    marginVertical: 10,
+  },
+
+  botaoPadrao: {
+    backgroundColor: "#00913D",
+    alignItems: 'center',
+    padding: 15,
+    margin: 5,
+    marginTop: 20,
+    borderRadius: 5,
+    marginHorizontal: 20,
+    marginBottom: 20,
+  },
+
+  botaoPadraoTexto: {
+    color: "#fff",
+    fontSize: 18,
+  },
+
+  carregar: {
+    marginBottom: 10,
+    marginTop: 10,
+  },
+
+  rodape: {
+    position: 'absolute',
+    flex: 0.1,
+    left: 0,
+    right: 0,
+    bottom: 25,
+  },
+
+  rodapeRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingVertical: 5,
+  },
+
+  rodapeLinha: {
+    borderBottomWidth: 2,
+    borderColor: "#000",
+    width: '20%',
+    marginHorizontal: 5,
+  },
+
+  rodapeTexto: {
+    color: "#000",
+    textAlign: "center",
+    fontSize: 16,
+  },
+
+  linkCadastro: {
+    color: '#0000FF',
+    textAlign: 'center',
+    marginTop: 10,
+    textDecorationLine: 'underline',
+  },
 });
