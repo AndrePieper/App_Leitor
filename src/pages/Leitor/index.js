@@ -65,8 +65,8 @@ export default function Leitor({ navigation }) {
       id_aluno: idAluno,
       id_chamada: id_chamada,
       hora_post: hora_post,
-      latitude: coords.latitude,
-      longitude: coords.longitude,
+      lat_aluno: coords.latitude,
+      long_aluno: coords.longitude,
     };
 
     try {
